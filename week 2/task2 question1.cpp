@@ -1,4 +1,3 @@
-//my second task real
 #include <iostream>
 #include <cmath>
 using namespace std;
