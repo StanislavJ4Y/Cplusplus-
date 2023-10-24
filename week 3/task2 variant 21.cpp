@@ -31,7 +31,7 @@ int main() {
         break;
     case 'V':
         cout << "River: Vovcha" << endl;
-        cout << "Length: 0,464 meters" << endl;
+        cout << "Length: 0,464 kilometers" << endl;
         cout << "Tributaries: 497 small rivers and streams" << endl;
         break;
      case 'T':
