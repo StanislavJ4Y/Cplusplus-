@@ -22,5 +22,5 @@ int main() {
     if (x > 1) {
         w = (0.9 * pow(x, 1./2)) - (0.8 * x);
 }
-cout << "Result: " << w;
+cout << "Result: " << w << endl;
 }
