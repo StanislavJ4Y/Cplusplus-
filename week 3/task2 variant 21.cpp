@@ -24,14 +24,30 @@ int main() {
         cout << "Length: 806 kilometers" << endl;
         cout << "Tributaries: 1 large" << endl;
         break;
-    case 'P':
+    case 'I':
         cout << "River: Inhul" << endl;
         cout << "Length: 354 kilometers" << endl;
         cout << "Tributaries: 6" << endl;
+        break;
+    case 'V':
+        cout << "River: Vovcha" << endl;
+        cout << "Length: 0,464 meters" << endl;
+        cout << "Tributaries: 497 small rivers and streams" << endl;
+        break;
+     case 'T':
+        cout << "River: Teteriv" << endl;
+        cout << "Length: 0,385 kilometers" << endl;
+        cout << "Tributaries: 6" << endl;
+        break;
+     case 'P':
+        cout << "River: Pripyat" << endl;
+        cout << "Length: 0,761 kilometers" << endl;
+        cout << "Tributaries: 9" << endl;
         break;
     default:
         cout << "There is no data on rivers that begin with: '" << riverName << "'" << endl;
         break;
     }
     return 0;
+}
 }
